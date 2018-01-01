@@ -13,7 +13,7 @@
 >>isViewFromObject( ):判断instantiateItem(ViewGroup, int)函数所返回来的Key与一个页面视图是否是代表的同一个视图(即它俩是否是对应的，对应的表示同一个View),通常我们直接写 return view == object；就可以了  
   
   ###3.效果  
-  ![实现效果图](https://raw.githubusercontent.com/paranoia0618/image/master/85621650.gif）
+  ![实现效果图](https://raw.githubusercontent.com/paranoia0618/image/master/85621650.gif)
   ![项目结构图](http://www.runoob.com/wp-content/uploads/2015/08/383165.jpg)
   
   
