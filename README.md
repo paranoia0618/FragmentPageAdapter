@@ -9,7 +9,7 @@
 >>getCount( ):获得viewpager中有多少个view  
 >>destroyItem( ):移除一个给定位置的页面.  
 >>instantiateItem( ):①将给定位置的view添加到ViewGroup(容器)中,创建并显示出来 
->>>>②返回一个代表新增页面的Object(key),通常都是直接返回view本身就可以了, 也可以自定义自己的key,但是key和每个view要一一对应的关系  
+>>>>>>>②返回一个代表新增页面的Object(key),通常都是直接返回view本身就可以了, 也可以自定义自己的key,但是key和每个view要一一对应的关系  
 >>isViewFromObject( ):判断instantiateItem(ViewGroup, int)函数所返回来的Key与一个页面视图是否是代表的同一个视图(即它俩是否是对应的，对应的表示同一个View),通常我们直接写 return view == object；就可以了  
   
   ###3.效果  
